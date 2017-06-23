@@ -4,7 +4,8 @@
   "description": "littlstar monitoring service",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch-sass": "onchange 'app/public/css/*.scss' -- npm run build-sass",
+    "build-sass": "npm-sass ./app/public/css/*.scss > ./app/public/css/global.css"
   },
   "author": "ttante",
   "license": "ISC",
@@ -12,7 +13,11 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "express-session": "^1.15.3",
+    "npm-sass": "^2.2.1",
     "path": "^0.12.7",
     "pug": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "onchange": "^3.2.1"
   }
 }

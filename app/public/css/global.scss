@@ -1,0 +1,15 @@
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Nunito', sans-serif;
+// font-family: 'Titillium Web', sans-serif;
+
+#body-wrap {
+  div{
+    &.index {
+      font-family: 'Poppins', sans-serif;
+      h2 {
+        font-family: 'Poppins', sans-serif;
+        
+      }
+    }
+  }
+}
