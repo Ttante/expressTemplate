@@ -11,4 +11,5 @@ exports = module.exports = function (router ) {
     res.render('index');
   });
 
+  // ping rails api
 }

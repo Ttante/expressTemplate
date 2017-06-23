@@ -1,4 +1,4 @@
-#body-wrap div.index {
-  font-family: 'Poppins', sans-serif; }
-  #body-wrap div.index h2 {
-    font-family: 'Poppins', sans-serif; }
+#body-wrap {
+  font-family: 'Nunito', sans-serif; }
+  #body-wrap .index .main-title {
+    text-align: center; }

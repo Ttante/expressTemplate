@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "watch-sass": "onchange 'app/public/css/*.scss' -- npm run build-sass",
-    "build-sass": "npm-sass ./app/public/css/*.scss > ./app/public/css/global.css"
+    "build-sass": "npm-sass ./app/public/css/*.scss > ./app/public/css/global.css",
+    "watch-js": "onchange 'app/public/js/*.js' -- npm run build-js",
+    "build-js": "browserify ./app/public/js/*.js > ./app/public/js/build/output.js"
   },
   "author": "ttante",
   "license": "ISC",
